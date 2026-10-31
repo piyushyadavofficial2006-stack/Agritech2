@@ -6,7 +6,8 @@
     "start": "node backend/server.js",
     "backend": "cd backend && node server.js",
     "frontend": "cd frontend && npm run dev",
-    "build": "cd frontend && npm run build"
+    "build": "cd frontend && npm run build",
+    "git:push": "node scripts/git-push.js"
   },
   "keywords": [
     "agritech",
