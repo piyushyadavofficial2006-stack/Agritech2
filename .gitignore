@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json
+
+# Environment variables & secrets
+.env
+*.env
+backend/.env
+frontend/.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+*/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary test files
+test-*.js
+scratch/

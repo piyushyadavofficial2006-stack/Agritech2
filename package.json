@@ -1,0 +1,25 @@
+{
+  "name": "agritech-smart-farming",
+  "version": "1.0.0",
+  "description": "AgriTech – Smart Farming Management System (MERN Stack)",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "agritech",
+    "smart-farming",
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb",
+    "precision-agriculture"
+  ],
+  "author": "AgriTech Engineering Team",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-git": "^1.44.8"
+  }
+}
